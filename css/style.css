@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+
+body
+{
+	background: url('../img/bg.jpg') no-repeat;
+	background-size: cover;
+}
+
+/* Layout */
+.ba-container
+{
+	max-width: 686px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
+	background-color:  #111a28;
+
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button
+{
+	display: inline-block;
+	border: 1px solid #555a62;
+	border-radius: 0;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	margin-bottom: 75px;
+	color: #555a62;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-product
+{
+	display: flex;
+}
+
+.logo
+{
+	padding-top: 25px;
+	padding-left: 25px;
+	display: block;
+}
+
+.ba-product__image
+{
+	width: 65%;
+	padding-left:35px;
+	padding-top: 68px;
+	padding-bottom: 70px;
+}
+
+.ba-product__info
+{
+	width: 35%;
+	padding-left: 20px;
+}
+
+.ba-product__title
+{
+	color: #e1e1e1;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+.ba-product__title2
+{
+	color: #555a62;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 300;
+}
+
+.ba-button--primary
+{
+	background-color: #202835;
+	padding-left: 54px;
+	padding-right: 54px;
+}
+
+.ba-button--primary:hover
+{
+	color: #000;
+}
+
+.ba-product__rating
+{
+	padding-bottom:26px;
+}
+
+.ba-product__rating a
+{
+	text-decoration: none;
+}
+
+.ba-sizes_qty
+{
+	display: flex;
+	padding-bottom:26px;
+}
+
+.slider
+{
+	text-align: center;
+	padding-bottom: 19px;
+}
+
+.ba-sizes, .ba-qty
+{
+	border: 1px solid #4f5560;
+	background-color: none;
+}
+
+.ba-qty
+{
+	margin-left: 3px;
+}
